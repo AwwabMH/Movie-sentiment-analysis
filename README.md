@@ -18,7 +18,7 @@
 
 This project started as two large, high-velocity notebooks:
 
-- `MovieSentimentAnalysis (1).ipynb`: broad experimental sweep (EDA, cleaning, TF-IDF, embedding models, deep models).
+- `MovieSentimentAnalysis.ipynb`: broad experimental sweep (EDA, cleaning, TF-IDF, embedding models, deep models).
 - `MovieSentimentAnalysis_AdvancedKagglePipeline.ipynb`: aggressive leaderboard-oriented transformer workflow (CV, ensemble weighting, scheme comparisons).
 
 Those notebooks proved the ideas. This repository makes them **repeatable, testable, and extensible**.
