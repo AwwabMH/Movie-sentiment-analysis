@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "movie-sentiment-oop"
+version = "1.0.0"
+description = "Industry-grade OOP sentiment analysis pipelines refactored from notebook experiments"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "DSAI Project Team" }
+]
+keywords = ["nlp", "sentiment-analysis", "transformers", "machine-learning", "mlops"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "License :: OSI Approved :: MIT License",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
